@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../../Componentes/Footer";
 import Header from "../../Componentes/Header";
-import 'C:/Users/ribei/VSCode/DevMedia/Gelateria/src/Paginas/Sabores/estilo.css'
+import './estilo.css'
 
 
 export default function Sabores() {
