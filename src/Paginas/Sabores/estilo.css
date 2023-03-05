@@ -1,0 +1,87 @@
+.container {
+    max-width: 1024px;
+}
+
+.secao-banner-sabores {
+    background-image: url(C:\Users\ribei\VSCode\DevMedia\Gelateria\public\assets\banner-sabores.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px  #504e4e;
+}
+
+.secao-banner-sabores h1 {
+    text-align: center;
+}
+
+.secao-sabores {
+    padding: 50px 0 100px;
+}
+
+.titulo-sabores {
+    text-align: center;
+    font-size: 28px;
+}
+
+.secao-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 30%;
+    box-shadow: 0 0 10px #ccc7c7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 430px;
+    margin-top: 25px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.texto-card {
+    width: 90%;
+    text-align: center;
+}
+
+.texto-card h3, .texto-card p {
+    font-size: 14px;
+    padding-bottom: 20px;    
+}
+
+@media(max-width: 768px) {
+    .secao-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%;
+        justify-content: space-around;
+
+    }
+
+    .card img {
+        width: 50%;
+    }
+
+    .texto-card h3, .texto-card p {
+        font-size: 18px;
+        padding-bottom: 20px;    
+    }
+}
+
