@@ -3,7 +3,7 @@
 }
 
 .secao-banner-sabores {
-    background-image: url(C:\Users\ribei\VSCode\DevMedia\Gelateria\public\assets\banner-sabores.jpg);
+    background-image: url('../../../public/assets/banner-sabores.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -1,5 +1,5 @@
 .secao-banner-sobre {
-    background-image: url(C:\Users\ribei\VSCode\DevMedia\Gelateria\public\assets\banner-sobre.png);
+    background-image: url('../../../public/assets/banner-sobre.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
